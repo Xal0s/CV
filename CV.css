@@ -1,0 +1,145 @@
+html body{
+    font-family: prompt;
+}
+
+body{
+    background-image: url(images/—Pngtree—simple\ recruitment\ poster\ background_824749\ \(1\).jpg);
+    background-size: cover;
+}
+
+h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 175px;
+    margin-right: 80px;
+    padding: 20px;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+.titre_presentation{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.presentation{
+    display: flex;
+    flex-direction: row;
+}
+
+.photo{
+    max-width: 19.5%;
+    max-height: 5%;
+    margin-right: 100px;
+    border: 3px rgb(255, 49, 84) solid;
+    border-radius: 60%;
+}
+
+.p_presentation{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 50px;
+    margin-left: 190px;
+    margin-right: 250px;
+}
+
+
+.titre_colonnes{
+    display: flex;
+    justify-content: space-around;
+}
+
+.colonnes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.titre_comp, .p_comp{
+    display: flex;
+    justify-content: space-around;
+}
+
+.tableau_comp{
+    max-width: 300px;
+    margin-left: 112px;
+}
+
+.competences{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px;
+    margin-bottom: 50px;
+}
+
+.Langues{
+    margin-right: 150px;
+}
+
+.titre_hobbies{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.hobbies{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.logo{
+    max-width: 50px;
+    margin-top: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 50%;
+}
+
+.liens{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+@media screen and (max-width: 480px) {
+
+    body{
+        background-size: cover;
+
+    }
+
+    h1{
+        justify-content: space-around;
+    }
+    
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .liens{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
